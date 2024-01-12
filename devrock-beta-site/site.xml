@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/devrock.eclipse.feature.artifact.container_4.0.0.202401101427.jar" id="devrock.eclipse.feature.artifact.container" version="4.0.0.202401101427">
+      <category name="devrock_tooling"/>
+   </feature>
+   <feature url="features/devrock.eclipse.feature.artifact.reflection.builder_1.0.0.202401101427.jar" id="devrock.eclipse.feature.artifact.reflection.builder" version="1.0.0.202401101427">
+      <category name="devrock_tooling"/>
+   </feature>
+   <feature url="features/devrock.eclipse.feature.debug.module.nature.builder_1.0.0.202401101427.jar" id="devrock.eclipse.feature.debug.module.nature.builder" version="1.0.0.202401101427">
+      <category name="devrock_tooling"/>
+   </feature>
+   <feature url="features/devrock.eclipse.feature.devrock_1.0.0.202401101427.jar" id="devrock.eclipse.feature.devrock" version="1.0.0.202401101427">
+      <category name="devrock_tooling"/>
+   </feature>
+   <feature url="features/devrock.eclipse.feature.model.nature.builder_4.0.0.202401101427.jar" id="devrock.eclipse.feature.model.nature.builder" version="4.0.0.202401101427">
+      <category name="devrock_tooling"/>
+   </feature>
+   <feature url="features/devrock.eclipse.feature.mungo.jerry_4.0.0.202401101427.jar" id="devrock.eclipse.feature.mungo.jerry" version="4.0.0.202401101427">
+      <category name="devrock_tooling"/>
+   </feature>
+   <feature url="features/devrock.eclipse.feature.file.classpath.launcher_1.0.2.202401101427.jar" id="devrock.eclipse.feature.file.classpath.launcher" version="1.0.2.202401101427">
+      <category name="devrock_tooling"/>
+   </feature>
+   <category-def name="devrock_tooling" label="Devrock tools">
+      <description>
+         A collection of tools to support development with the Hiconic-os ecosystem
+      </description>
+   </category-def>
+</site>

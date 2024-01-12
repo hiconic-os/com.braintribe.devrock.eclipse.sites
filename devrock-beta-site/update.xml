@@ -1,0 +1,20 @@
+<project xmlns:artifact="antlib:org.apache.maven.artifact.ant" xmlns:bt="antlib:com.braintribe.build.ant.tasks" default="xslt" basedir=".">
+
+
+<target name="xslt">	
+	<property name="html-output" value="index.html"/>
+	<property name="site-input" value="site.xml"/>
+	<property name="xslt-input" value="html/site.xsl"/>
+	
+	<delete file="${html-output}"/>
+
+	<xslt in="${site-input}" out="${html-output}" style="${xslt-input}">		
+	  <outputproperty name="encoding" value="iso8859_1"/>
+	  <outputproperty name="indent" value="yes"/>
+		<!-- inject the saxon transformer -->
+		<classpath location="html/saxon-he-9.4.jar" />
+		<factory name="net.sf.saxon.TransformerFactoryImpl" />
+	</xslt>
+</target>
+
+</project>

@@ -1,0 +1,7 @@
+This is hiconic-os.org's update site for the BETA versions of devrock's offering for Eclipse.
+
+While these plugins have been all been tested (and already used daily), they are officially classified as BETA versions, may not fully reflect the features of the RELEASE versions, and - finally - may contain issues that haven't been detected yet.
+
+Still, using the BETA versions gives you access the newest features and bug fixes, and by using them, you help to gather information that makes publishing a RELEASE faster and more reliable.
+
+So, if you do choose to install these BETA versions - thank you.

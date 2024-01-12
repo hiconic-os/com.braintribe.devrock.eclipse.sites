@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="devrock.eclipse.feature.debug.module.nature.builder"
+      label="devrock&apos;s debug-module-nature-builder feature"
+      version="1.0.0.qualifier"
+      provider-name="modular mind labs"
+      license-feature="Devrock_License_Feature"
+      license-feature-version="1.0.2.0">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.jdt.core" version="3.14.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.13.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.14.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.14.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.109.100" match="greaterOrEqual"/>
+      <import plugin="devrock.eclipse.main"/>
+   </requires>
+
+   <plugin
+         id="devrock.eclipse.debug-module-nature"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
