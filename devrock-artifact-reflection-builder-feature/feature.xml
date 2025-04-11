@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="devrock.eclipse.feature.artifact.reflection.builder"
-      label="devrock&apos;s artifact-reflection-builder feature"
+      label="Devrock Artifact Reflection Builder Feature"
       version="1.0.0.qualifier"
-      provider-name="modular mind labs"
+      provider-name="Hiconic"
       license-feature="Devrock_License_Feature"
       license-feature-version="1.0.2.0">
 
-   <description url="https://devrock.braintribe.com/devrock/arb">
-      Plugin to automatically add reflection capabilities to the artifact that it builds
+   <description url="https://github.com/hiconic-os">
+      adds a build-step to projects that builds (and updates) the artifact reflection data within the project so it can be addressed in a safe way withhin the classpath.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+   <copyright>
+      Copyright BRAINTRIBE TECHNOLOGY GMBH, Austria, 2002-2022
    </copyright>
 
    <license url="http://www.example.com/license">
@@ -25,9 +25,6 @@
 
    <plugin
          id="devrock.eclipse.artifact-reflection-builder"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

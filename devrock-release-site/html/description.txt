@@ -1,0 +1,10 @@
+This is hiconic-os.org's update site for the RELEASE versions of devrock's offering for Eclipse.
+
+While there are no official integration-tests, these versions have been running as BETAs for quite a while and are stable enough to be regarded as RELEASE. There are some features regarded as EXPERIMENTAL (mostly concerning the zed-integration),
+but other than that, everything is proven to work. Or at least nothing was thrown at the plugins they couldn't handle yet.
+
+If you want to have a quicker access to new features, you can of course also start using the BETA site - the versions there are (in the very most cases) stable enough for daily work, and if issues arise, they're fixed quickly. 
+
+So, if you do choose to install these BETA versions - thank you. 
+
+Otherwise, you're welcome to use a more conservative approach and stick with the RELEASE.

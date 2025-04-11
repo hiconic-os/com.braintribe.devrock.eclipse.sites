@@ -1,0 +1,14 @@
+# com.braintribe.devrock.eclipse.sites
+
+no builds, no tests
+
+## update sites 
+
+the contents isn't stored on git, i.e. the packaged features and plugins are not added to git. 
+
+if you want to have a continuing history on the update-sites, you'll need to download the site from the host, and modify it by adding new features, build them and upload it again. 
+
+In git, only the contents of the site.xml and the HTML stuff is to be uploaded. 
+
+
+

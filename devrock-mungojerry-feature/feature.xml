@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="devrock.eclipse.feature.mungo.jerry"
-      label="devrock&apos;s mungo jerry feature"
+      label="Devrock Mungo Jerry Feature"
       version="4.0.0.qualifier"
-      provider-name="modular mind labs"
+      provider-name="Hiconic"
       license-feature="Devrock_License_Feature"
       license-feature-version="1.0.2.0">
 
-   <description url="https://devrock.braintribe.com/mj">
-      A plugin to validate GWT dependencies, and to support debugging of GWT projects.
+   <description url="https://github.com/hiconic-os">
+      A plugin to validate GWT dependencies, and to support debugging
+of GWT projects.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+   <copyright>
+      Copyright BRAINTRIBE TECHNOLOGY GMBH, Austria, 2002-2022
    </copyright>
 
    <license url="http://www.example.com/license">
@@ -29,9 +30,6 @@
 
    <plugin
          id="devrock.eclipse.mungo-jerry"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

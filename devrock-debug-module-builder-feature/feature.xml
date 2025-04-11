@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="devrock.eclipse.feature.debug.module.nature.builder"
-      label="devrock&apos;s debug-module-nature-builder feature"
+      label="Devrock Debug Module Nature Builder Feature"
       version="1.0.0.qualifier"
-      provider-name="modular mind labs"
+      provider-name="Hiconic"
       license-feature="Devrock_License_Feature"
       license-feature-version="1.0.2.0">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description url="https://github.com/hiconic-os">
+      The debug module builder adds a build-step to &apos;debug projects&apos;
+as created by Jinni in order to link their dependencies with
+possibly matching projects in your workspace so a tribefire instance
+can be debugged easily.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+   <copyright>
+      Copyright BRAINTRIBE TECHNOLOGY GMBH, Austria, 2002-2022
    </copyright>
 
    <license url="http://www.example.com/license">
@@ -30,9 +33,6 @@
 
    <plugin
          id="devrock.eclipse.debug-module-nature"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

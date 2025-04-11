@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="devrock.eclipse.feature.devrock"
-      label="devrock&apos;s main plugin feature"
+      label="Devrock Main Plugin Feature"
       version="1.0.0.qualifier"
-      provider-name="modular mind labs"
+      provider-name="Hiconic"
       license-feature="Devrock_License_Feature"
       license-feature-version="1.0.2.0">
 
@@ -31,9 +31,6 @@
 
    <plugin
          id="devrock.eclipse.main"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

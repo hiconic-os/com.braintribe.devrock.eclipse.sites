@@ -1,0 +1,11 @@
+com.braintribe.devrock.eclipse.sites:devrock-artifactcontainer-feature
+com.braintribe.devrock.eclipse.sites:devrock-artifact-reflection-builder-feature
+com.braintribe.devrock.eclipse.sites:devrock-debug-module-builder-feature
+com.braintribe.devrock.eclipse.sites:devrock-file-classpath-loader-feature
+com.braintribe.devrock.eclipse.sites:devrock-license-feature
+com.braintribe.devrock.eclipse.sites:devrock-main-feature
+com.braintribe.devrock.eclipse.sites:devrock-model-builder-feature
+com.braintribe.devrock.eclipse.sites:devrock-mungojerry-feature
+com.braintribe.devrock.eclipse.sites:devrock-beta-site
+com.braintribe.devrock.eclipse.sites:devrock-release-site
+
